@@ -5,7 +5,7 @@
 {
     'name': "Product Stock Labels",
     'version': '1.0',
-    'depends': ['stock', 'sale', 'deliveries_labels'],
+    'depends': ['stock', 'sale', 'product_brand'],
     'author': "AbAKUS it-solutions SARL",
     'website': "http://www.abakusitsolutions.eu",
     'summary': 'Stocked product Labels',
