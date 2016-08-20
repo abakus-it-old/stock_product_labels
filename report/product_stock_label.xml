@@ -150,9 +150,9 @@
                                 <tr style="border: 1px solid black;">
                                     <td colspan="2">
                                         <span t-if="quant.product_id.ean13">
-                                            <img t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('EAN13', quant.product_id.ean13, 600, 100)" style="margin-top: 5px; width:270px; height:50px"/>
+                                            <img t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('EAN13', quant.product_id.barcode, 600, 100)" style="margin-top: 5px; width:270px; height:50px"/>
                                             <br />
-                                            <span t-esc="quant.product_id.ean13" />
+                                            <span t-esc="quant.product_id.barcode" />
                                         </span>
                                     </td>
                                 </tr>
